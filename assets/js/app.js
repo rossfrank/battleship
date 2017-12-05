@@ -18,23 +18,16 @@ import "phoenix_html"
 // Local files can be imported directly using relative
 // paths "./socket" or full ones "web/static/js/socket".
 
-// import socket from "./socket"
+import socket from "./socket"
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Header from './components/header';
-
-function renderHeader() {
-  let div = document.getElementById('header');
-  ReactDOM.render(<Header />, div);
-}
+import Game from './components/game'
 
 function start() {
-  renderHeader();
-  let html = <h1>Hello, World</h1>;
-  let main = document.getElementById('main');
-
-  ReactDOM.render(html, main);
+  let div = document.getElementById('game');
+  ReactDOM.render(<Game text/>, div);
 }
 
 $(start);

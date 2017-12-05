@@ -1,7 +1,4 @@
-<div id="header">
-  <p>Header</p>
+<div id="game">
 </div>
-
-<div id="main">
-  <p>Main</p>
-</div>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css">
